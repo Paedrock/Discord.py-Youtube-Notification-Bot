@@ -93,6 +93,6 @@ async def stop_notifying(ctx):
 #you can also create this command to start notifying but we're gonna do so that everytime the bot goes online it will automaitacly starts notifying
 @bot.command()
 @commands.has_role("Youtube")
-async def start_notifying(ctx):
+async def start_notifying(ctx):zzegr(trez
   checkforvideos.start()
   await ctx.send("Now Notifying")
